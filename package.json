@@ -1,0 +1,29 @@
+{
+  "name": "remote-midi-controller",
+  "version": "0.0.1",
+  "description": "web server providing user interfaces to midi",
+  "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
+  "license": "MIT",
+  "main": "remote-midi-controller.js",
+  "bin": {
+    "remote-midi-controller": "./remote-midi-controller.js"
+  },
+  "homepage": "https://github.com/pmuellr/remote-midi-controller",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmuellr/remote-midi-controller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmuellr/remote-midi-controller/issues"
+  },
+  "dependencies": {
+    "fastify": "^3.11.0",
+    "fastify-websocket": "^3.0.0",
+    "midi": "^1.0.0",
+    "minimist": "^1.2.5",
+    "ws": "^7.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}
