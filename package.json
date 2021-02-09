@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "fastify": "^3.11.0",
+    "fastify-static": "^3.4.0",
     "fastify-websocket": "^3.0.0",
     "midi": "^1.0.0",
     "minimist": "^1.2.5",

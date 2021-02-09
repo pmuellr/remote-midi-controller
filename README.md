@@ -5,6 +5,10 @@ remote-midi-controller - web server providing user interfaces to midi
 usage
 ================================================================================
 
+After installing, run the following for help
+
+    remote-midi-controller -h
+
 
 installation
 ================================================================================
@@ -15,6 +19,9 @@ installation
 changelog
 ================================================================================
 
+version 0.0.1 - 2021-02-02
+
+- initial version, under active development
 
 
 license
