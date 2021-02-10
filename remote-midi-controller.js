@@ -74,6 +74,7 @@ async function handleHomePage(req, rep) {
 
 /** @type { (server: FastifyInstance, cliParams: CliParams) => Promise<void> } */
 async function start(server, cliParams) {
+  log('use the -h or --help options for help')
   try {
     const address = await server.listen(cliParams.port, cliParams.address)
     log(`server started at url: ${address}`)    
